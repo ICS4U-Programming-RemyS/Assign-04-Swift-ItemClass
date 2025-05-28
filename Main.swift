@@ -102,10 +102,11 @@ class PerishableItem: Item {
 // Main program
 func main() {
     // Welcome message
-    print("This program calculates the price based on different factors (tax, discount, etc.) based on user input. Enter 'q' for name to quit")
+    print("This program calculates the price based on different factors (tax, discount, etc.) "
+    + "based on user input. Enter 'q' for name to quit")
 
     // Set name
-    var name : String = ""
+    var name: String = ""
 
     // Loop until the user enters "q" to quit
     while name.lowercased() != "q" {
@@ -213,4 +214,3 @@ func main() {
 
 // Run main function
 main()
-
